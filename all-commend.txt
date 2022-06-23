@@ -22,3 +22,11 @@ Administrator@FERDOUSH MINGW64 /c/laragon/www/LaravelVuePos/basic (main)
 $
 
 composer create-project --prefer-dist laravel/laravel:^7.0 Your project name
+
+
+composer require laravel/jetstream
+
+
+php artisan jetstream:install livewire
+
+php artisan jetstream:install livewire --teams

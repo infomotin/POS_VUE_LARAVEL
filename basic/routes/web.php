@@ -33,3 +33,13 @@ Route::get('/history', function () {
 Route::get('/contact', [ContactController::class,'index'])->name('contact');
 // for old laravel version
 // Route::get('/contact', 'ContactController@index')->name('contact');
+
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
