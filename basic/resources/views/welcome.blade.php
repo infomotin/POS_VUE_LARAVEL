@@ -38,6 +38,11 @@
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <h1>Home</h1>
+                <a href="{{url('/')}}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
+                <a href="{{ URL::to('/about') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">About</a>
+                <a href="{{ URL::to('/history') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">History</a>
+                <a href="{{ URL::to('/contact') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Contact</a>
+                {{-- <a href="#" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Home</a> --}}
 
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2">

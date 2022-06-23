@@ -1,0 +1,22 @@
+
+Administrator@FERDOUSH MINGW64 /c/laragon/www/LaravelVuePos (main)
+$ cd basic/
+
+Administrator@FERDOUSH MINGW64 /c/laragon/www/LaravelVuePos/basic (main)
+$ php artisan make:controller ContactController
+Controller created successfully.
+
+Administrator@FERDOUSH MINGW64 /c/laragon/www/LaravelVuePos/basic (main)
+$ php artisan make:controller AboutController
+Controller created successfully.
+
+Administrator@FERDOUSH MINGW64 /c/laragon/www/LaravelVuePos/basic (main)
+$ php artisan make:controller HistoryController
+Controller created successfully.
+
+Administrator@FERDOUSH MINGW64 /c/laragon/www/LaravelVuePos/basic (main)
+$ php artisan make:middleware CheckAge
+Middleware created successfully.
+
+Administrator@FERDOUSH MINGW64 /c/laragon/www/LaravelVuePos/basic (main)
+$

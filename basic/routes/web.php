@@ -21,8 +21,8 @@ Route::get('/home', function () {
 });
 
 Route::get('/about', function () {
-    return view('about')->middleware('checkAge');
-});
+    return view('about');
+})->middleware('checkAge');
 // Route::get('/contact', function () {
 //     return view('contact');
 // });
