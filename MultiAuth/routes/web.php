@@ -16,13 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
-// in lsravel8 
+//in laravel8 Old Version middleware 
 // Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 //     return view('dashboard');
 // });
 
-//new in laravel9 - middleware
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
