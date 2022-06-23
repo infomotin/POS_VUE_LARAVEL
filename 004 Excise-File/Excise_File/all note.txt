@@ -1,0 +1,39 @@
+Route::get('/{vue_capture?}',function () {
+	    return view('welcome');
+	})->where('vue_capture', '[\/\w\.-]*');
+
+
+------------------ Password as (admin)
+$2y$12$JQnOLosNvFG1Tfoj3rXS9.u805/xHhtfEJD.90QDeOjakAQN3Bl0y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

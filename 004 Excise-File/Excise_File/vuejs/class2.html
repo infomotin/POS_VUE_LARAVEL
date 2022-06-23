@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title> Vue js Methods </title>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+ 
+   <div id="kazi">
+   <h1>{{ MyName() }} </h1>
+    <h1>{{ Myage(24) }} </h1>
+   </div>
+
+ 
+
+ <script>
+ 	
+ let app = new Vue({
+     el: '#kazi',
+     data:{
+     	message: 'Udemy Online Project'
+     },
+     methods:{
+      MyName(){
+         return 'easy Learning Methods'
+      },
+      Myage(age){
+        return `${this.message} My age is ${age}` 
+      }
+
+
+
+     }
+
+
+
+
+  })
+
+ </script>
+
+</body>
+</html>

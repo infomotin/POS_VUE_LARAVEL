@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title> Vue js Data Binding </title>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<style>
+  .one{
+      color: orange; 
+  }
+
+  .two{
+  text-decoration: line-through;
+  }
+
+</style>
+
+</head>
+<body>
+ 
+   <div id="kazi">
+   <a v-bind:href="address"> Vuejs</a>
+   <h1 :class="classes"> Easy Learning </h1>
+   <input type="text" v-bind:value="name">
+   </div>
+
+ 
+
+ <script>
+ 	
+ let app = new Vue({
+     el: '#kazi',
+     data:{
+     	address: 'https://vuejs.org/',
+      classes: ['one','two'],
+      name: 'kazi ariyan'
+     },
+       
+
+  })
+
+ </script>
+
+</body>
+</html>

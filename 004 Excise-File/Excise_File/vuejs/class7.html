@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title> Vue js Tow way data Binding </title>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+ 
+   <div id="kazi">
+    My name is {{ age }}<br>
+    <input type="text" v-model="age" >
+   </div>
+
+ 
+
+ <script>
+ 	
+ let app = new Vue({
+     el: '#kazi',
+     data:{
+     	age: 'kazi'
+     },
+     methods:{
+       
+
+     }
+ 
+
+  })
+
+ </script>
+
+</body>
+</html>
