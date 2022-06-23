@@ -20,3 +20,5 @@ Middleware created successfully.
 
 Administrator@FERDOUSH MINGW64 /c/laragon/www/LaravelVuePos/basic (main)
 $
+
+composer create-project --prefer-dist laravel/laravel:^7.0 Your project name

@@ -29,7 +29,7 @@ Route::get('/about', function () {
 Route::get('/history', function () {
     return view('history');
 });
-
+//Seo Friendly URL ->name('contact')
 Route::get('/contact', [ContactController::class,'index'])->name('contact');
 // for old laravel version
 // Route::get('/contact', 'ContactController@index')->name('contact');
