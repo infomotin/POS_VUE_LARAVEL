@@ -30,3 +30,6 @@ composer require laravel/jetstream
 php artisan jetstream:install livewire
 
 php artisan jetstream:install livewire --teams
+
+
+npm install && npm run dev
