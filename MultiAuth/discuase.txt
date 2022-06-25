@@ -1,0 +1,11 @@
+when log in url calling Than 
+GET|HEAD | login  Laravel\Fortify\Http\Controllers\AuthenticatedSessionController@create            | web                                                       |
+
+public function __construct(StatefulGuard $guard)
+and StatefulGuard is interface for guard class
+guard class is used to manage user session    
+
+FortifyServiceProvider also use StatefulGuard to manage user session
+        $this->app->bind(StatefulGuard::class, function () {
+            return Auth::guard(config('fortify.guard', null));
+        });
