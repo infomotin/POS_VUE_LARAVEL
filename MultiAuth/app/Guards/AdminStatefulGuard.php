@@ -1,8 +1,9 @@
 <?php
 
-namespace Illuminate\Contracts\Auth;
+namespace App\Guards;
+use Illuminate\Contracts\Auth\Guard;
 
-interface StatefulGuard extends Guard
+interface AdminStatefulGuard extends Guard
 {
     /**
      * Attempt to authenticate a user using the given credentials.
