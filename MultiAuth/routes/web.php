@@ -17,9 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 //in laravel8 Old Version middleware 
-// Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-//     return view('dashboard');
-// });
+//   
 
 
 Route::middleware([

@@ -33,3 +33,7 @@ php artisan jetstream:install livewire --teams
 
 
 npm install && npm run dev
+
+
+
+7fQSS55Qn5euJoIAX5sz6yezHvrLAvlLooRsHO9b
