@@ -39,3 +39,15 @@ npm install && npm run dev
 7fQSS55Qn5euJoIAX5sz6yezHvrLAvlLooRsHO9b
 
 
+php artisan migrate
+
+php artisan make:migration create_users_table --create=users
+php artisan make:migration create_users_table --create=users
+ 
+php artisan make:migration add_votes_to_users_table --table=users
+
+create product table with migration file commend below
+php artisan make:migration create_products_table --create=products
+
+
+php artisan make:controller TestProductController --resource
